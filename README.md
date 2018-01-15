@@ -13,7 +13,7 @@ For every pair of benchmark tables, the ground truth alignment can be derived fr
 
 FOLDER ORGANIZATION
 
-To compare table union search with existing frameworks and evaluate the effectiveness of different unionability measures, we generated two benchmark of size 1,300 and 5,000 tables. The smaller benchmark is a subset of the one with 5,000 tables. These benchmarks are available in sqlite databases in "1300/data" and "5000/data" directories. 
+To compare table union search with existing frameworks and evaluate the effectiveness of different unionability measures, we generated two benchmark of size 1,300 and 5,000 tables. The smaller benchmark is a subset of the one with 5,000 tables. These benchmarks are available in sqlite databases at https://www.dropbox.com/sh/3pqlk7irfusm5vu/AACFsy-u2ftvpPgV-ib0dTfaa?dl=0 in "1300/data" and "5000/data" directories. 
 "base" databases contain the base tables used in generating the benchmark and "benchmark" databases contain unionable tables. For each benchmark, we provide a ground truth database in "groundtruth" directory. This database contains three tables. Table "att_groundtruth" provides all mappings between unionable attributes. Table "alignment_groundtruth" provides the size of the max-alignment (c) between two tables. Finally, table "recall_groundtruth" provides the number of tables that are unionable with a benchmark table. 
 
 We also include a script in the benchmark that stores benchmark tables as csv files. 
