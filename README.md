@@ -9,13 +9,13 @@ This suite consists of two benchmarks of size ~1,300 and ~5,000 tables.
 These benchmarks are available in sqlite databases:
 
 Small:
-* [base.sqlite](https://storage.googleapis.com/table-union-benchmark/small/base.sqlite)
-* [benchmark.sqlite](https://storage.googleapis.com/table-union-benchmark/small/benchmark.sqlite)
-* [groundtruth.sqlite](https://storage.googleapis.com/table-union-benchmark/small/groundtruth.sqlite)
+* [base.sqlite](https://storage.googleapis.com/table-union-benchmark/small/base.sqlite) (96 MB)
+* [benchmark.sqlite](https://storage.googleapis.com/table-union-benchmark/small/benchmark.sqlite) (1.6 GB) 
+* [groundtruth.sqlite](https://storage.googleapis.com/table-union-benchmark/small/groundtruth.sqlite) (196 MB)
 
 Large:
-* [benchmark.sqlite](https://storage.googleapis.com/table-union-benchmark/large/benchmark.sqlite)
-* [groundtruth.sqlite](https://storage.googleapis.com/table-union-benchmark/large/groundtruth.sqlite)
+* [benchmark.sqlite](https://storage.googleapis.com/table-union-benchmark/large/benchmark.sqlite) (1.59 GB)
+* [groundtruth.sqlite](https://storage.googleapis.com/table-union-benchmark/large/groundtruth.sqlite) (3.5 GB)
 
 The "base.sqlite" databases contain the base tables used for generating the benchmark 
 and "benchmark.sqlite" databases contain unionable tables. 
