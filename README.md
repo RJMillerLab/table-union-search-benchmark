@@ -10,7 +10,7 @@ These benchmarks are available in sqlite databases:
 
 Small:
 * [base.sqlite](https://storage.googleapis.com/table-union-benchmark/small/base.sqlite) (96 MB)
-* [benchmark.sqlite](https://storage.googleapis.com/table-union-benchmark/small/benchmark.sqlite) (1.6 GB) 
+* [benchmark.sqlite](https://storage.googleapis.com/table-union-benchmark/small/benchmark.sqlite) (1.3 GB) 
 * [groundtruth.sqlite](https://storage.googleapis.com/table-union-benchmark/small/groundtruth.sqlite) (196 MB)
 
 Large:
